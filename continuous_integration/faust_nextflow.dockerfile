@@ -15,7 +15,7 @@ RUN apt-get update \
                              libssl-dev \
                              libxml2-dev \
                              procps \
-                             python3.7 \
+                             python3 \
                              python3-pip \
                              python3-setuptools \
                              python3-dev
