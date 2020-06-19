@@ -2,7 +2,7 @@ nextflow.preview.dsl=2
 
 process clusterExperimentalUnitsWithScamp {
     // [ directives ]
-    container "434514085730.dkr.ecr.us-west-2.amazonaws.com/faust:0.5.0"
+    container "gfinak/faust:0.5.0"
     label "large_cpu"
     // echo true
 

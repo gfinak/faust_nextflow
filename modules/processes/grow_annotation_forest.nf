@@ -4,7 +4,7 @@ params.number_of_iterations = 1
 
 process growAnnotationForest {
     // [ directives ]
-    container "434514085730.dkr.ecr.us-west-2.amazonaws.com/faust:0.5.0"
+    container "gfinak/faust:0.5.0"
     label "large_cpu"
 
     input:
