@@ -2,7 +2,7 @@ nextflow.preview.dsl=2
 
 process finalizeFAUSTAnnotationData {
     // [ directives ]
-    container "rglab/faust-nextflow:0.5.0"
+    container "434514085730.dkr.ecr.us-west-2.amazonaws.com/faust:0.5.0"
     label "standard_mem_and_cpu"
     publishDir "FAUST_RESULTS", mode: "copy", overwrite: true
 
